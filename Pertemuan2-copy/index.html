@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pertemuan 3 Web Design</title>
+  </head>
+  
+  <!-- margin: jarak luar elemen,padding: jarak dalam elemen, jika =0 agar semua browser memulai dari tampilan yang sama/konsisten. -->
+   <!-- ubah gambar LB dengan mengambil dari penyimpanan no-repeat arrtinya agar gambar tidak berulang,
+    center agar ditengah, fixed agar tidak geser dan cover agar gambar full. -->
+  <body style="margin: 0; padding: 0; background: url('img/background.jpg') no-repeat center center fixed; background-size: cover">
+    <!-- teks berjalan menggunakan tag marquee -->
+    <!-- didalam tag marquee tambahkan atribut style untuk mengubah warna LB dan warna teks -->
+    <marquee style="color: green; background-color: yellow">
+      <h2>TAG LANJUTAN DI HTML</h2>
+    </marquee>
+    <br />
+    <br />
+
+    <!-- buat bingkai dengan tag fieldset -->
+    <fieldset>
+      <!-- tag legend berguna memberikan judul di dalam elemen fieldset -->
+      <legend style="color: black">WEB DESIGN TI2A</legend>
+
+      <!-- gambar saya -->
+      <img src="img/kayis.png" />
+
+      <!-- memsukan gambar offline -->
+      <br />
+      <img src="img/logo.png" />
+
+      <!-- memasukan gambar online -->
+      <br />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHu-y2hgMVNYk1uGJ-A3JPaAvDg34KTD21-dsviFgGmH9M1CsS4Jcc2ZI&usqp=CAE&s" />
+
+      <!-- buat link  teks -->
+      <br />
+      <a href="https://pmb.polsa.ac.id" style="color: green">Download</a>
+
+      <!-- buat link dengan gambar -->
+      <br />
+      <a href="https://pmb.polsa.ac.id">
+        <img src="img/icon.png" height="90" style="margin-left: 30px" />
+      </a>
+
+      <br />
+      <a href="wa.me/6281329382932">
+        <img src="img/wa.jpeg" height="40" style="margin-left: 30px" />
+      </a>
+
+      <br />
+      <a href="https://www.facebook.com/yuumekmistrong">
+        <img src="img/fb.png" height="40" style="margin-left: 30px" />
+      </a>
+
+      <!-- memasukan video offline/dari penyimpanan -->
+      <br />
+      <video controls>
+        <source src="img/video tiktok.mp4" />
+      </video>
+
+      <!-- memasukan link embed video dari youtube -->
+      <br />
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/_cw-tltLXWM?si=j_HIg1m6J8hlXZ8u" frameborder="0" allowfullscreen> </iframe>
+    </fieldset>
+  </body>
+</html>
