@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Daftar Pembelajarann</title>
-</head>
 <body>
   <h1>Daftar Materi HTML</h1>
   <ul>
