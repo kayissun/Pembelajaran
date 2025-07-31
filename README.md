@@ -11,6 +11,8 @@
     <li><a href="Pertemuan4/login.html">Pertemuan 4</a></li>
     <li><a href="Pertemuan5/index.html">Pertemuan 5</a></li>
     <li><a href="Projek UTS/Login.html">UTS</a></li>
+    <li><a href="Projek Pertemuan6/index1.html">Pertemuan 6 | PART 1</a></li>
+    <li><a href="Projek Pertemuan6/index2.html">Pertemuan 6 | PART 2</a></li>
   </ul>
 </body>
 </html>
