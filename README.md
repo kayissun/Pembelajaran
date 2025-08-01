@@ -13,6 +13,7 @@
     <li><a href="Projek UTS/Login.html">UTS</a></li>
     <li><a href="Projek Pertemuan6/index1.html">Pertemuan 6 | PART 1</a></li>
     <li><a href="Projek Pertemuan6/index2.html">Pertemuan 6 | PART 2</a></li>
+    <li><a href="Pertemuan7/ogin.html">Pertemuan 7</a></li>
   </ul>
 </body>
 </html>
