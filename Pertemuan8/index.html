@@ -1,0 +1,73 @@
+<!-- PEMEBELAJARAN 9 | MENGENAL BOOTSTRAP -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style-jumbotron.css" />
+    <title>Pertemuan 9 | BOOTSTRAP</title>
+  </head>
+
+  <!-- membuat landing page menggunakan bootstrap -->
+  <body>
+    <!-- contoh navabar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning bg-transparent fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">DESIGN WEB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <!-- nav item tombol -->
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scrool-trigger text-white" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scrool-trigger text-white" href="#price">PRICE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scrool-trigger text-white" href="#tutor">TUTOR</a>
+            </li>
+            <!-- nav item dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> DOWNLOAD </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">LAYER</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- isi konten di bootstrap -->
+    <div class="jumbotron">
+      <h1 class="display-4">
+        PENDAFTARAN MAHASISWA BARU <br />
+        <span class="font-weight-bold">POLSA KUTOARJO</span>
+      </h1>
+      <div class="container">
+        <hr class="my-4" />
+        <p>Solusi menjadi ahli IT Purworejo</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">DAFTAR!</a>
+      </div>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    
+    <!-- gunakan file js bawaan -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script type="text/JavaScript" src="bootstrap.js"></script>
+  </body>
+</html>
