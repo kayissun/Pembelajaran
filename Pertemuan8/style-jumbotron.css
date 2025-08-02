@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image: url(/Bootstrap/img/background.jpg);
+    background-image: url(/img/background.jpg);
     background-size: cover;
     height: 1024px;
     text-align: center;
@@ -34,3 +34,4 @@
     background-color: blue;
     cursor: pointer;
 }
+
