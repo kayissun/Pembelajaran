@@ -1,0 +1,54 @@
+/* selector nav login */
+.login {
+  gap: 20px;
+  padding: 5px;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+}
+
+/* selector styling untuk bar */
+.carousel-item {
+  height: 1024px;
+}
+
+.carousel-caption {
+  margin-bottom: 350px;
+}
+
+.carousel-caption hr {
+  border-color: red;
+  width: 500px;
+  border-width: 3px;
+}
+
+.carousel-caption .display-4 {
+  margin-top: 250px;
+  color: white;
+}
+
+.carousel-caption p {
+  font-size: 25px;
+  color: white;
+}
+
+.carousel-caption .btn {
+  background-color: red;
+  border-radius: 25px;
+  border: none;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+li i {
+  color: white;
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.carousel-caption i {
+  margin-right: 10px;
+}
