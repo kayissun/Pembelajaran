@@ -1,0 +1,98 @@
+* { /* memilih keseluruhan web */
+    margin: 0; /* digunakan untuk mengatur semua margin di luar elemen */
+    padding: 0; /* menghilangkan padding di semua elemen */
+    font-family: "Outfit", sans-serif; /* mengubah font */
+    text-decoration: none; /* agar text tidak ada embel embel */
+}
+
+body { /* style untuk tag body */
+  background-image: url(img/biru.png); /* mengubah LB */
+  background-position: center; /* posisi gambar */
+  background-size: cover ; /* mengatur ukuran gambar */
+  background-attachment: fixed; /*berguna agar gambar latar belakang tetap pada posisi yg sama meski saat halaman di gulir */
+}
+
+.contact { /* mengatur class contact */
+  width: 500px; /* mengatur lebar */
+  margin-top: 50px; /* mengatur jarak di atasnya */
+  margin-left: 70px; /* mengatur jarak di kiri */
+  border-radius: 5px; /* mengatur kelengkungan box */
+  border: 2px solid limegreen; /* mengatur warna box */
+  padding: 20px; /* mengatur ukuran box */
+}
+
+h2 { /* mengatur tag h2 */
+  font-size: 30px; /* ukuran teks */
+  text-align: center; /* teks di tengah */
+}
+
+hr {
+  margin-bottom: 20px; /* mengatur jarak di bawahnya */
+}
+
+.form-input { /* mengatur class input */
+  width: 100%; /* ukuran box */
+  padding: 12px; /* mengatur ukuran inputan */
+  border: 1px solid limegreen; /* mengatur warna inputan */
+  border-radius: 5px; /* mengatur kelengkungan box */
+  box-sizing: border-box; /* agar box input tidak melebihi batas */
+  margin-top: 6px; /* mengatur jarak di atasnya */
+  margin-bottom: 16px; /* mengatur jarak di bawahnya */
+}
+
+textarea { /* mengatur pada tag textarea */
+  height: 100px; /* mengatur panjang   */
+}
+
+.send { /* mengatur class send */
+ color: white; /* mengubah warna teks */
+ background-color: rgb(17, 0, 255); /* mengubah warna background */
+ padding: 12px 20px; /* mengatur panjang dan lebar */
+ border-radius: 4px; /* mengatur kelengkungan box */
+ cursor: pointer; /* mengubah kursor */
+ width: 100%; /* mengatur lebar */
+}
+
+.send:hover { /* agar ada efek ganti warna */
+  background-color: green; /* warna latar belakang */
+  transition: 0.3s; /* efek transisi warna */
+}
+
+nav ul { /* style bagian menu */
+  background: yellow; /* warna background */
+  list-style: none; /* untuk menghilangkan tanda tompel */
+  padding: 10px; /* memberikan ruang */
+  display: flex; /* agar tata letak menjadi sebaris */
+  gap: 20px; /* memberikan jarak antar elemen */
+}
+  
+nav ul li a { /* style teks */
+  color: rgb(24, 3, 3); /* warna teks */
+  text-decoration: none; /* mengilangkan garisbawah */
+}
+
+nav ul  a:hover{ /* efek ketika di klik */
+  color: white; /* warna teks */
+  background-color: black; /* warna background */
+  padding: 10px; /* memberikan ruang */
+  transition: 0.3s; /* efek jeda ketika di klik */
+}
+
+footer { /* css tag footer */
+  background: linear-gradient(1deg, #82879c, blue ); /* warna background */
+  color: #fff; /* warna teks */
+  padding: 20px; /* memberikan ruang */
+  position: absolute; /* untuk memisahkan dengan form */
+  margin-top: 50px; /* jarak dari form */
+  width: 100%; /* memperlebar luas */
+  left: 0; /* agar tidak ada jarak di kiri */
+}
+
+.social-media a { /* class social-media tag a  */
+  font-size: 40px; /* ukuran teks */
+  display: inline-block; /* agar sejajar */
+  text-decoration: none; /* menghilangkan garis bawah */
+  padding: 5px; /* memberikan ruang */
+}
+
+

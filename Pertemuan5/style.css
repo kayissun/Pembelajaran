@@ -1,0 +1,70 @@
+/* css untuk tag body */
+body {
+ background-color: green; /* warna background */
+  font-family: "Tagesschrift", system-ui; /* font teks */
+  margin: 0; /* agar browser mereset ukuran mnjadi default */
+  padding: 100px; /* jarak didalam elemen */
+}
+
+/* css untuk class conatiner */
+.container {
+  display: flex; /* mengubah susunan agar card bisa sejajar */
+  justify-content: center; /* agar selurh content ditengah */
+  gap: 50px; /* jarak/spasi antar card */
+}
+
+/* css untuk class card */
+.card {
+  margin-top: 100px; /* jarak element dari atas */
+  font-size: 10px; /* ukuran teks */
+  background-color: white; /* warna backgroound card */
+  width: 100%; /* lebar */
+  padding: 100px; /* jarak dalam elemen */
+  text-align: center; /* agar teks card ditengah */
+  border-radius: 50px; /* kelengkungan card */
+  box-shadow: 10px 10px 2px 2px rgba(0, 0, 0, 0.5); /* menambah efek bayangan pada card */
+}
+
+/* membuat efek saat disentuh cursor */
+.card:hover {
+  transform: translate(-10px); /* lama gerakan */
+}
+
+/* class icon */
+.icon {
+  font-size: 100px; /* ukuran ikon */
+  margin: 50px; /* jarak luar ikon */
+  color: blue; /* warna ikon */
+}
+
+/* css tag button */
+button {
+  background-color: whitesmoke; /* warna background button */
+  color: black; /* warna teks */
+  border: none; /* menghilangkan garis tepi */
+  padding: 15px 120px; /* jarak atas dan bawah antara teks dan tombol  */
+  border-radius: 10px; /* kelengkungan tombol */
+  cursor: pointer; /* mengubah jenis cursor */
+  font-weight: bolder; /* ketebalan teks */
+  font-size: 50px; /* ukuran teks */
+  font-family: "Times New Roman", Times, serif; /* font teks button */
+  margin-bottom: 100px; /* jarak dari bawah */
+  margin-top: 10px; /* jarak dari atas */
+}
+
+/* efek ketika di sentuh */
+button:hover {
+  color: white; /* warna teks */
+  background-color: black; /* warna background */
+  cursor: pointer; /* mengubah jenis cursor */
+}
+
+/* tag p */
+p {
+  font-size: 50px; /* ukuran teks p */
+}
+
+/* tag h2 */
+h2 {
+  font-size: 80px; /* ukuran teks h2 */
+}

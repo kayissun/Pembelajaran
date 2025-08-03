@@ -1,0 +1,61 @@
+<!-- PERTEMUAN 5 | HALAMAN LOGIN -->
+<!DOCTYPE html>
+<html>
+    <!-- membuat atribut style -->
+    <style>
+        /* atribut style untuk tag "form" */
+        form{
+            max-width: 300px; /* lebar maksimal */
+            margin: 2px auto; /* jarak */
+            padding: 20px; /* jarak di dalam/data */
+            background: rgb(202, 207, 191); /* warna LB */
+            border-radius: 2px; /* kelengkungan */
+        }
+
+        /* atribut tag input */
+        input{
+            width: 100%; /* lebar */
+            padding: 5px; /* jarak didalam input */
+        }
+
+        /* atribut class button */
+        .submit{
+            width: 100%; /* lebar */
+            padding: 10px; /* jarak ddi dalam */
+            background: rgb(12, 204, 98); /* warna LB */
+            color: white; /* warna teks */
+            border-radius: 4px; /* kelengkungan tombol  button */
+            font-size: 16px; /* ukuran teks */
+            cursor: pointer; /* mengubah jenis cursor */
+        }
+    </style>
+    <head>
+        <title>Halaman LOGIN</title>
+    </head>
+    <body>
+        <legend align="center">
+            <h2>LOGIN USER</h2>
+        </legend>
+        <!-- membuat form login mrnggunakan tag form  -->
+         <!-- tambahkan "method=get", untuk mengirim data lewat URL -->
+          <!-- atribut action berguna agar saat tombol submit ditekan maka akan mengarahkan ke halaman selanjutnya -->
+        <form method="get" action="input data.html">
+            <div>
+                <!-- tag "label" untuk menambah penjelasan -->
+                <label>Username</label>
+                <!-- menambah form input data dg type "email" agar pengguna memasukan nama/email,
+                  dan placeholder untuk kata bantu -->
+                <input  type="email" name="Username" placeholder="Masukan Username">
+            </div>
+
+            <div>
+                <label>Password</label>
+                <!-- type password berguna agar teks yang dimasukan/input akan tersembunyi -->
+                <input type="password" name="password" placeholder="Masukan Password">
+            </div>
+        <br>
+            <!-- menambah tombol submit dan class "submit" agar bisa dipanggil di atribut style -->
+            <input class="submit" type="SUBMIT">
+         </form>
+    </body>
+</html>

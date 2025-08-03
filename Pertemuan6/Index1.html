@@ -1,0 +1,53 @@
+<!-- PEMBELAJARAN 6 | BELAJAR JAVASCRIPT PART 1 -->
+<!-- MEMBUAT ALERT ATAU PESAN PADA BROWSER -->
+<!-- tag inline -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Belajar Javascript</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <marquee style="background-color: lightblue; color: green">
+      <h2>PERTEMUAN 8 | JAVASCRIPT</h2>
+    </marquee>
+
+    <!-- Membuat Form -->
+    <div class="container">
+      <form action="#" method="get">
+        <fieldset>
+          <legend>Tambah Data Mahasiswa</legend>
+          <label>NAMA</label><br />
+          <input type="text" placeholder="Masukan nama" /><br />
+
+          <label>ALAMAT</label><br />
+          <textarea name="" id=""></textarea><br />
+
+          <!-- Buat tombol yang akan ada Javascriptnya -->
+          <!-- tambahkan script javascript langsung ke atribut button/inline -->
+          <button onclick="alert('Data Berhasil Disimpan')" style="background-color: blue; color: white">SUBMIT</button>
+
+          <!-- Buat tombol delete dengan melalui internal atribut script -->
+          <button id="delete" style="background-color: red; color: white">Delete</button>
+          <!-- buat atribut script internal -->
+          <script>
+            const tombol = document.getElementById("delete");
+            tombol.addEventListener("click", function () {
+              alert("elemen dihapus!");
+            });
+          </script>
+
+          <!-- Buat tombol edit dengan melalui file eksternal -->
+          <button id="edit" style="background-color: pink; color: white">Edit</button>
+          <!-- menambahkan file eksternal javascript -->
+          <!-- <script src="pertemuan8.js"></script> -->
+        </fieldset>
+      </form>
+    </div>
+
+    <!-- menambahkan pesan teks dan ketika di klik teks akan hilang -->
+    <p id="pesan">Ini adalah pesan yang di sembunyikan</p>
+    <button onclick="document.getElementById('pesan').style.display = 'none';" style="background-color: green; color: white">sembunyikan</button>
+  </body>
+</html>

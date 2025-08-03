@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    /* atribut style untuk tag "form" */
+    form {
+      max-width: 400px; /* lebar maksimal */
+      margin: 20px auto; /* jarak */
+      padding: 22px; /* jarak di dalam/data */
+      background: rgb(113, 158, 8); /* warna LB */
+      border-radius: 10px; /* kelengkungan */
+    }
+
+    /* atribut style untuk tag label */
+    label {
+      font-weight: bold; /* ketebalan teks */
+      display: block; /* susunan teks */
+    }
+
+    /* atribut style untuk textarea dan select */
+    textarea, select {
+      width: 100%; /* lebar */
+      padding: 5px; /* jarak didalam */
+      border: 1px solid; /* ketebalan garis/border */
+      border-radius: 5px; /* kelengkungan */
+      font-size: 16px; /* ukuran teks */
+    }
+
+    /* atribut style untuk tag input */
+    input {
+      width: 100%; /* lebar */
+      border: 1px solid; /* ketebalan garis/border */
+      font-size: 16px; /* ukuran teks */
+      border-radius: 5px; /* kelengkungan */
+      padding: 5px; /* jarak didalam */
+    }
+
+    /* atribut style untuk class button */
+    .submit {
+      width: 100%; /* lebar */
+      padding: 10px; /* jarak didalam */
+      background: red; /* warna LB */
+      color: white; /* warna teks */
+      border-radius: 4px; /* kelengkungan tombol */
+      font-size: 16px; /* ukuran teks */
+      cursor: pointer; /* mengubah jenis kursor */
+    }
+  </style>
+  <head>
+    <title>INPUT DATA</title>
+  </head>
+  <body>
+    <h2 style="text-align: center">INPUT DATA INVENTARIS</h2>
+
+    <!-- menggunakan method "get" agar bisa mengirim data lewat url -->
+    <form method="get" action="Data Inventaris.html">
+      <div>
+        <label>ID</label>
+        <!-- menambah input type "text" agar pengguna bisa memasukan teks -->
+        <input type="text" name="ID" />
+      </div>
+      <br />
+
+      <div>
+        <label>NAMA</label>
+        <input type="text" name="NAMA" />
+      </div>
+      <br />
+
+      <div>
+        <label>LOKASI</label>
+        <!-- tag "select" agar pengguna bisa memilih yang ada dg beberapa option -->
+        <select>
+          <option name="OP" value="OP">Masukan Pilihan Anda</option>
+          <option name="KTJ" value="KTJ">Kutoarjo</option>
+          <option name="KBM" value="KBM">Kebumen</option>
+          <option name="PWJ" value="PWJ">Purworejo</option>
+          <option name="JKT" value="JKT">Jakarta</option>
+          <option name="SBY" value="SBY">Surabaya</option>
+        </select>
+      </div>
+      <br />
+
+      <div>
+        <label>TAHUN PERIODE</label>
+        <select>
+          <option name="OP" value="OP">Masukan Pilihan Anda</option>
+          <option name="Genap" value="Genap">2024</option>
+          <option name="Ganjil" value="Ganjil">2025</option>
+        </select>
+      </div>
+      <br />
+
+      <div>
+        <label>JUMLAH BARANG</label>
+        <input type="text" name="JUMLAH BARANG" />
+      </div>
+
+      <div>
+        <label>KONDISI</label>
+        <!-- input type "radio" digunakan untuk membuat pilihan tunggal dg bbrp bulatan  -->
+        <input type="radio" name="KONDISI" value="A" />Baru 
+        <input type="radio" name="KONDISI" value="B" />Baik 
+        <input type="radio" name="KONDISI" value="C" />Cacat
+      </div>
+      <br />
+
+      <div>
+        <label>FOTO BARANG</label>
+        <!-- input type "file" digunakan agar pengguna bisa menambahkan beberapa file -->
+        <input type="file" name="FOTO BARANG" />
+      </div>
+      <br />
+
+      <input class="submit" type="submit" />
+    </form>
+  </body>
+</html>

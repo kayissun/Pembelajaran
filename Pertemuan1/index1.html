@@ -1,0 +1,95 @@
+<!-- PERTEMUAN 1 "PART 2" -->
+<!-- Deklarasi <! DOCTYPE html> mendefinisikan dokumen ini sebagai HTML5 -->
+<!DOCTYPE html>
+
+<!-- tag "html" elemen root dari halaman html -->
+<html>
+  <!-- tag "head" berisi informasi meta tentang dokumen -->
+  <head>
+    <!-- tag "title" menentukan judul untuk dokumen -->
+    <title>PERTEMUAN 1 | WEB DESIGN</title>
+  </head>
+  <!-- tag "body" berisi semua konten halaman yang terlihat -->
+  <body>
+    <!-- PERCOBAAN 6: PENULISAN PARAGRAF DENGAN ATRIBUT -->
+    <!-- atribut "center" memposisikan teks ditengah -->
+    <p align="center">
+      “Dan Rabb-mu telah memerintahkan kepada manusia janganlah ia beribadah melainkan hanya kepadaNya dan hendaklah berbuat baik kepada kedua orang tua dengan sebaik-baiknya. Dan jika salah satu Modul 1 Desain Web dari keduanya atau
+      kedua-duanya telah berusia lanjut disisimu maka janganlah katakan kepada keduanya ‘ah’ dan janganlah kamu membentak keduanya” (Al-Isra:23)
+    </p>
+
+    <!-- atribut "left" meratakan teks kiri -->
+    <p align="left">
+      “Dan katakanlah kepada keduanya perkataan yang mulia dan rendahkanlah dirimu terhadap keduanya dengan penuh kasih sayang. Dan katakanlah, “Wahai Rabb-ku sayangilah keduanya sebagaimana keduanya menyayangiku di waktu kecil” (Al-Isra :
+      24)
+    </p>
+
+    <!-- atribut "justify" agar teks rata kanan kiri -->
+    <p align="justify">
+      “Dan Kami perintahkan kepada manusia agar berbuat baik kepada orang tuanya, ibunya telah mengandungnya dalam keadaan lemah yang bertambah lemah dan menyapihnya dalam dua tahun, bersyukurlah kalian kepada-Ku dan kepada kedua orang
+      tuamu. Hanya kepada-Ku lah kalian kembali” (Luqman : 14)
+    </p>
+
+    <!-- atribut "right" meratakan teks kanan -->
+    <p align="right">
+      “Dan jika keduanya memaksamu mempersekutukan sesuatu dengan Aku yang tidak ada pengetahuanmu tentang Aku maka janganlah kamu mengikuti keduanya dan pergaulilah keduanya di dunia dengan cara yang baik dan ikuti jalan orang-orang yang
+      kembali kepada-Ku kemudian hanya kepada-Ku lah kembalimu maka Aku kabarkan kepadamu apa yang kamu kerjakan” (Luqman : 15)
+    </p>
+    <br />
+
+    <!-- PERCOBAAN 7: STYLE -->
+<!--     atribut "style" untuk menentukan gaya langsung di dalam html -->
+    <p>Saya adalah ukuran normal</p>
+    <p style="color: red">Saya adalah merah</p>
+    <p style="color: blue">Saya adalah biru</p>
+    <p style="color: green">Saya adalah hijau</p>
+    <p style="color: yellow">Saya adalah kuning</p>
+    <p style="color: violet">Saya adalah violet</p>
+    <p style="font-size: 50px">Saya adalah ukuran besar</p>
+
+    <!--  PERCOBAAN 8: QUOTATIONS  -->
+    <!-- mengambil quotes secara online, menggunakn link -->
+    <p>Ini adalah kutipan dari website:</p>
+    <!-- tag blockquote berguna untuk menandai bagian teks yang merupakan kutipan dari sumber lain, 
+     biasanya ditampilkan dengan menjorok ke dalam -->
+    <!--  Atribut cite pada elemen  <blockquote> berfungsi sebagai referensi atau sumber dari kutipan yang disematkan dalam elemen tersebut. -->
+    <blockquote cite="https://almanhaj.or.id/358-wajibnya-berbakti-dan-haramnya-durhaka-kepada-kedua-orang-tua.html">
+      “Dan Rabb-mu telah memerintahkan kepada manusia janganlah ia beribadah melainkan hanya kepadaNya dan hendaklah berbuat baik kepada kedua orang tua dengan sebaik-baiknya. Dan jika salah satu dari keduanya atau kedua-duanya telah
+      berusia lanjut disisimu maka janganlah katakan kepada keduanya ‘ah’ dan janganlah kamu membentak keduanya” (Al- Isra:23)
+    </blockquote>
+
+    <!-- PERCOBAAN 9: ALAMAT -->
+    <p>Alamat:</p>
+    <!-- Tag "address" pada HTML digunakan untuk mendefinisikan informasi kontak, seperti alamat fisik, email, atau nomor telepon, 
+      untuk sebuah dokumen atau bagian dari dokumen. Tag ini biasanya ditempatkan di bagian footer halaman web atau di dalam elemen article -->
+    <address>
+      Ditulis oleh Ovide DWA <br />
+      Kunjungi kami: <br />
+      ovide.id <br />
+      Purworejo Indonesia <br />
+    </address>
+
+    <!-- PERCOBAAN 10: WARNA -->
+    <!-- penggunaan warna bisa langsung dilakukan di dalam tag dengan atribut "style" -->
+    <h1 style="background-color: Tomato">Tomato</h1>
+    <h1 style="background-color: Orange">Orange</h1>
+    <h1 style="background-color: DodgerBlue">DodgerBlue</h1>
+    <h1 style="background-color: MediumSeaGreen">MediumSeaGreen</h1>
+    <h1 style="background-color: Gray">Gray</h1>
+    <h1 style="background-color: SlateBlue">SlateBlue</h1>
+    <h1 style="background-color: Violet">Violet</h1>
+    <h1 style="background-color: LightGray">LightGray</h1>
+
+    <!-- PERCOBAAN 11: MENAMPILKAN GAMBAR -->
+    <!-- menampilkan gambar menggunakan tag "img" dan 
+     atribut "src" untuk mendeteksi link atau penyimpanan -->
+    <h2>Contoh Menampilkan Gambar Online</h2>
+    <img src="https://akcdn.detik.net.id/community/media/visual/2023/04/04/bacaan-doa-zikir-dan-takbiran-di-malam-lebaran-idul-fitri-untuk-diajarkan-ke-anak.jpeg?w=700&q=90" alt="berbakti" width="500" height="333" />
+
+    <h2>Contoh Menampilkan Gambar Offline melalui penyimpanan</h2>
+    <img src="img/berbakti.jpeg" alt="berbakti" width="500" height="333" />
+
+    <!-- atribut "width" untuk mengatur lebar foto sedangkan
+     atribut "height" untuk mengatur tinggi foto -->
+  </body>
+</html>

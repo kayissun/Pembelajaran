@@ -1,0 +1,329 @@
+* { 
+    font-family: "Outfit", sans-serif;
+     box-sizing: border-box; 
+}
+
+body { 
+    margin: 0; 
+    padding: 0;
+}
+
+/* css untuk tombol di pojok kanan atas*/
+.tombol-login {
+    padding: 10px;
+    background-color: yellow;
+    width: 50px;
+    height: 335px;
+    min-width: 100%;
+
+}
+
+.tombol-login a {
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    float: right;
+    margin-right: 5px;
+    font-size: 20px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.tombol-login img {
+    width: 100%;
+    height: 300px;
+    float:left;
+    margin-right: 250px;
+}
+
+.tombol-login a:hover {
+    color: white;
+    background-color: black;
+    transition: 0.6s;
+}
+
+/* css untuk menu */
+.menu {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    background: linear-gradient(to bottom, yellow, gray, #0d1d42);
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+    width: 200px;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 140px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 0.5px;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: black;
+    transition: 0.6s;
+}
+
+/* css untuk halaman home*/
+.isi-home {
+    background-image: url('img/bg home.webp');
+    background-size: cover;
+    width: 850px;
+    height: 400px;
+    float: right;
+    text-align: center;
+    position: relative;
+}
+
+.isi-home p {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Menggeser teks ke tengah */
+    font-size: 30px;
+    margin-left: 20px;
+    line-height: 0px;
+    width: 100%;
+}
+
+
+
+/* css untuk halaman login & daftar */
+.isi-login-daftar {
+    padding: 200px;
+    float: right;
+    width: 851px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, yellow, gray, #0d1d42);
+
+}
+
+.login-box { 
+    text-align: center;
+    color: #222;
+    font-size: 30px;
+}
+
+form{ 
+    width: 100%; 
+    height: 350px; 
+    padding: 25px; 
+    border-radius: 20px; 
+    box-shadow: 0px 5px 10px 1px rgb(0,0,0,6);
+}
+
+input{
+    width: 100%;
+    height: 60px;
+    font-size: 20px; 
+    padding: 0 25px; 
+    margin-bottom: 15px;
+    border-radius: 10px; 
+    outline: none; 
+    border: none; 
+}
+
+::placeholder{
+    font-weight: 500;
+    color: #222;
+}
+
+button{
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+    background: rgb(13, 13, 14);
+    color: rgb(238, 236, 229);
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-decoration: none;
+    border: none; 
+}
+
+button:hover{
+    background: #f49803;
+    color: #fff; 
+    border-radius: 20px;
+    box-shadow: 0 0 5px #f4c803,
+                0 0 25px #abbd0b,
+                0 0 50px #f4f003,
+                0 0 100px #d5cf1e; 
+}
+
+.belum {
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.belum a {
+    color: rgb(4, 4, 85);
+}
+
+.belum a:hover {
+    color: rgb(245, 45, 45);
+}
+
+/* CSS untuk halaman Galeri */
+.isi-galeri {
+    position: relative;
+    margin-left: 930px;
+    width: 800px;
+    transform: translate(-50%);
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 10px 25px 30px rgb(0, 0, 0, 0.5);
+}
+
+.wrap {
+    display: flex;
+    animation: slide 35s infinite;
+}
+
+.wrap img {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    20% {
+        transform: translateX(-100%);
+    }
+    40% {
+        transform: translateX(-200%);
+    }
+    60% {
+        transform: translateX(-300%);
+    }
+    80% {
+        transform: translateX(-400%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+/* CSS untuk halaman data mhsw */
+table {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 550px;
+    background-color: #3b82f6;
+}
+
+
+
+.foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}
+
+.action {
+    text-decoration: none;
+    color: rgb(11, 11, 189);
+}
+
+.isi-data {
+    width: 100%;
+    height: 400px;
+        background: linear-gradient(to bottom, yellow, gray, #0d1d42);
+
+
+}
+
+.action:hover {
+    color: red;
+}
+
+/* CSS untuk footer */
+footer {
+    background-color: #0d1d42;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+}
+
+.footer-section.brand {
+    margin-right: 70px;
+}
+
+.footer-judul {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section li,
+.footer-section a {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #cbd5e1;
+    text-decoration: none;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.social-icons a {
+    color: white;
+    margin-left: 10px;
+    font-size: 35px;
+    position: relative;
+    left: 4%;
+}
+
+
+.social-icons a:hover {
+    color: #3b82f6;
+}
+
+/* perbedaan ketinggian di bebrapa halaman */
+.footer-home,
+.footer-login,
+.footer-daftar {
+    margin-top: 400px;
+}
