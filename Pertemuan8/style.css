@@ -1,3 +1,4 @@
+/* selector untuk isi */
 .jumbotron {
     background-image: url(/img/background.jpg);
     background-size: cover;
@@ -34,4 +35,5 @@
     background-color: blue;
     cursor: pointer;
 }
+
 
