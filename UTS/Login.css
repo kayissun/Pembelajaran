@@ -1,0 +1,76 @@
+* { /* class untuk keseluruhan web */
+    margin: 0; /* digunakan untuk mengatur semua margin di luar elemen */
+    padding: 0; /* menghilangkan padding di semua elemen */
+    font-family: "Outfit", sans-serif; /* mengubah font */
+    box-sizing: border-box; /* agar box input tidak melebihi form */
+}
+
+.login{ /* class login */
+    text-align: center; /* teks di tengah */
+    margin: 20px 0 40px 0; /* mengatur keseluruhan jarak */
+    color: #222; /* warna teks */
+    font-size: 30px; /* ukuran teks */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+body{
+    display: flex; /* agar tampilan rapi */
+    justify-content: center; /* agar konten di tengah */
+    align-items: center; /* agar item di tengah */
+    min-height: 100vh; /* agar item di tengah */
+    background-image: url(img/biru.png); /* mengubah LB */
+    background-position: center; /* posisi gambar */
+    background-size: cover ; /* mengatur ukuran gambar */
+    background-attachment: fixed; /*berguna agar gambar latar belakang tetap pada posisi yg sama meski saat halaman di gulir */
+}
+
+form{ /* css tag form */
+    width: 100%; /* mengatur lebar form */
+    height: 300px; /* mengatur tinggi form */
+    padding: 25px; /* mengatur besar form */
+    border-radius: 20px; /* mengatur kelengkungan form */
+    box-shadow: 0px 5px 10px 1px rgb(0,0,0,6); /* mengatur bayangan form */
+}
+
+input{ /* css tag input */
+    width: 100%; /* mengatur lebar input */
+    height: 60px; /* mengatur tinggi input */
+    font-size: 20px; /* menghatur ukuran teks */
+    padding: 0 25px; /* mengatur besar */
+    margin-bottom: 15px; /* jarak item dari bawah */
+    border-radius: 10px; /* kelengkungan input */
+    outline: none; /* menghilangkan garis ketika di klik */
+    border: none; /* menghilangkan garis border */
+}
+
+::placeholder{ /* css tag placeholder */
+    font-weight: 500; /* mengatur ketebalan teks */
+    color: #222; /* warana teks */
+}
+
+button{ /* css tag button */
+    padding: 10px; /* besar tombol */
+    width: 100%; /* lebar tombol */
+    height: 60px; /* tinggi tombol */
+    background: rgb(13, 13, 14); /* warna background */
+    color: rgb(238, 236, 229); /* warna teks */
+    border-radius: 20px; /* kelengkunkan tombol */
+    font-size: 16px; /* ukuran teks */
+    cursor: pointer; /* mengubah jenis kursor ketika di klik */
+    transition: 0.5s; /* efek delay ketika diklik */
+    text-decoration: none; /* menghilangkan garisbawah teks */
+    border: none; /* menghilangkan garis pd tombol */
+}
+
+button:hover{ /* efek ketika diklik */
+    background: #f49803; /* warna background */
+    color: #fff; /* warna teks */
+    border-radius: 20px; /* kelengkungan tombol */
+    box-shadow: 0 0 5px #f4c803, /* tambahan warna */
+                0 0 25px #bd9d0b, /* tambahan warna */
+                0 0 50px #03f45f, /* tambahan warna */
+                0 0 100px #d5cf1e; /* tambahan warna */
+}

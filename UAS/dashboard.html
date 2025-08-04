@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard Admin - Kegiatan Mahasiswa</title>
+  <!-- Link ke file CSS -->
+    <link rel="stylesheet" href="/UAS/css/bootstrap.min.css" /><!-- memanggil css eketernal bawaan dari bootstrap -->
+    <link rel="stylesheet" href="/UAS/css/fontawesome/css/all.min.css" /><!-- memanggil css ikon eksternal bawaan dari bootstrap -->
+    <link rel="stylesheet" href="/UAS/css/dashboard.css" /><!-- memanggil file css eksternal -->
+</head>
+<body class="dashboard">
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Sidebar(kiri) -->
+      <nav class="col-md-3 col-lg-2 d-md-block sidebar">
+        <h4 class="text-white text-center">Admin Panel</h4>
+        <hr>
+        <!-- CLASS MR-2 ARTINYA MARGIN-RIGHT : 0.2 Rem/menambah jarak antara ikon dg teks -->
+        <a href="dashboard.html"> <i class="fa-solid fa-house mr-2"></i>Dashboard </a>
+        <a href="input.html"> <i class="fa-solid fa-pen-to-square mr-2"></i>Input Kegiatan </a>
+        <a href="data.html"> <i class="fa-regular fa-calendar mr-2"></i>Data Kegiatan </a>
+
+        <!-- menambahkan Sidebar edit kegiatan dengan dropdown -->
+        <a href="#submenuEdit" class="text-white d-flex align-items-center" data-toggle="collapse">
+          <i class="fa-solid fa-pen mr-2"></i> Edit Kegiatan
+        </a>
+        <div class="collapse pl-4" id="submenuEdit">
+          <a href="edit1.html" class="text-white d-block py-1">
+            - Kegiatan 1
+          </a>
+          <a href="edit2.html" class="text-white d-block py-1">
+            - Kegiatan 2
+          </a>
+          <a href="edit3.html" class="text-white d-block py-1">
+            - Kegiatan 3
+          </a><a href="edit4.html" class="text-white d-block py-1">
+            - Kegiatan 4
+          </a><a href="edit5.html" class="text-white d-block py-1">
+            - Kegiatan 5
+          </a>
+        </div>
+
+        <!-- Tombol Keluar -->
+        <!-- LINK keluar, menmabahkan onclick/id agar bisa di panggil di script.js -->
+        <a type="button" href="#" onclick="keluar()"> <i class="fa-solid fa-door-open mr-2"></i>Keluar </a> 
+      </nav>
+
+      <!-- ISI Konten Utama(kanan) -->
+      <main class="col-md-9 col-lg-10 px-4 py-4">
+        <h2>Selamat Datang, Admin!</h2>
+        <p>Kegiatan mahasiswa bukan hanya agenda, tapi ruang untuk berkembang dan berprestasi.</p>
+
+        <!-- 3 card yang menampilkan data kegiatan terbaru -->
+        <div class="row">
+          <!-- card Total Kegiatan -->
+          <div class="col-md-4 mb-3">
+            <div class="card text-white bg-primary">
+              <div class="card-body text-center">
+                <!-- FA-3X, BERARTI MENGUBAH UKURAN IKON MENJADI 3X LBH BSAR -->
+                <i class="fa-solid fa-clipboard-list fa-3x"></i>
+                <h5 class="card-title">Total Kegiatan</h5>
+                <p class="card-text">5 Kegiatan Terdaftar</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card Kegiatan Selesai -->
+          <div class="col-md-4 mb-3">
+            <div class="card text-white bg-success">
+              <div class="card-body text-center">
+                <i class="fa-regular fa-square-check fa-3x"></i>
+                <h5 class="card-title">Kegiatan Selesai</h5>
+                <p class="card-text">3 Kegiatan Sudah Selesai</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- card Kegiatan Pending -->
+          <div class="col-md-4 mb-3">
+            <div class="card text-white bg-warning">
+              <div class="card-body text-center">
+                <i class="fa-solid fa-hourglass-2 fa-3x"></i>
+                <h5 class="card-title">Kegiatan Pending</h5>
+                <p class="card-text">2 Kegiatan Belum Dimulai</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- menambahkan info terbaru -->
+        <div class="alert alert-info mt-4 row" role="alert">
+          <strong><i class="fa fa-info-circle d-inline-flex mr-2"></i>Info:</strong>
+          <marquee>
+            <span class="col-md-6">Pastikan semua data kegiatan di-update sebelum kegiatan dimulai.</span>
+            <span class="col-md-6">Status kegiatan otomatis berubah menjadi 'Selesai' jika tanggal kegiatan sudah lewat.</span>
+          </marquee>
+        </div>
+
+        <!-- menambahkan tombol Aksi Cepat -->
+        <div class="mt-4 d-flex justify-content-between align-items-center">
+          <h5 class="mb-0 font-weight-bold">Kegiatan Terbaru</h5>
+          <div>
+            <a href="input.html" class="btn btn-sm btn-primary">+ Tambah Kegiatan</a>
+            <a href="data.html" class="btn btn-sm btn-outline-secondary">Lihat Semua</a>
+          </div>
+        </div>
+        <!-- Tabel Ringkasan Kegiatan Terbaru -->
+        <div class="table-responsive mt-3">
+          <table class="table table-sm table-bordered">
+            <thead class="thead-light">
+              <tr>
+                <th>No</th>
+                <th>Nama Kegiatan</th>
+                <th>Tanggal</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+            <!-- class BADGE-SUCCES untuk MENGUBAH warna mark pada -->
+              <!-- Kegiatan 1 -->
+              <tr>
+                <td>1</td>
+                <td>Polsa Fest 2025</td>
+                <td>2025-06-28</td>
+                <td><span class="badge badge-success">Selesai</span></td>
+              </tr>
+
+              <!-- Kegiatan 2 -->
+              <tr>
+                <td>2</td>
+                <td>Kuliah Praktisi</td>
+                <td>2025-07-10</td>
+                <td><span class="badge badge-success">Selesai</span></td>
+              </tr>
+
+              <!-- Kegiatan 3 -->
+              <tr>
+                <td>3</td>
+                <td>Polsa Sehat</td>
+                <td>2025-06-11</td>
+                <td><span class="badge badge-success">Selesai</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- menampilkan popup -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- menambah library pop up -->
+  <script src="/UAS/js/script.js"></script> <!-- menambah file script eksternal -->
+
+  <!-- Script Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

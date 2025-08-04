@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Link ke file CSS -->
+    <link rel="stylesheet" href="/UAS/css/bootstrap.min.css" /> <!-- memanggil css bawaan dari bootstrap -->
+    <link rel="stylesheet" href="/UAS/css/fontawesome/css/all.min.css" /> <!-- mengambil css ikon bawaan dari bootstrap -->
+    <link rel="stylesheet" href="/UAS/css/login.css" /> <!-- memanggil file css eksternal -->
+    <title>Form Login</title>
+  </head>
+  <body>
+    <!-- Form login -->
+    <div class="container font-weight-bold">
+      <h2 class="text-center font-weight-bolder text-white">Login Admin</h2>
+      <hr /> <!-- garis pemisah -->
+      <form action="/UAS/dashboard.html" method="post" class="text-black-50"> 
+        <!-- input email -->
+        <div class="form-group">
+          <label for="Email">EMAIL</label> 
+          <div class="input-group">
+            <!-- class prepend agar ikon bisa di dalam inputan -->
+            <div class="input-group-prepend"> 
+              <div class="input-group-text"> 
+                <i class="fa fa-user"></i> <!-- ikon user -->
+              </div>
+            </div>
+            <input type="text" class="form-control" name="email" placeholder="Masukan Email" />
+          </div>
+        </div>
+
+        <!-- inputan password -->
+        <div class="form-group">
+          <label for="Password">PASSWORD</label>
+          <div class="input-group">
+            <!-- class agar ikon bisa di dalam inputan -->
+            <div class="input-group-prepend"> 
+              <div class="input-group-text">
+                <i class="fa fa-unlock"></i> <!-- ikon gembok terbuka -->
+              </div>
+            </div>
+            <input type="password" class="form-control" name="password" placeholder="Masukan Password" />
+          </div>
+        </div>
+        <!-- button login, menmabahkan onclick/id agar bisa di panggil di script.js -->
+        <button type="button" class="btn btn-primary" onclick="loginBerhasil()">Login</button> 
+        <!-- Link ke register -->
+        <p class="text-center mt-3">Belum punya akun? <a class=" font-weight-bold" href="register.html">Daftar di sini</a></p> <!-- link ke form register -->
+      </form>
+    </div>
+
+    <!-- menampilkan popup -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- menambah library pop up -->
+    <script src="/UAS/js/script.js"></script> <!-- menambah file script eksternal -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+  </body>
+</html>

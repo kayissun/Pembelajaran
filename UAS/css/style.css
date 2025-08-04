@@ -1,0 +1,99 @@
+/* css buat BODY */
+body {
+  font-family: Arial, Helvetica, sans-serif; /* font untuk semua teks */
+  /* background-image: url(/UAS/img/bg.png); */
+  background-size: cover;
+}
+
+/* css untuk NAVBAR */
+.navbar {
+  padding: 10px;
+  color: blue; /* warna */
+  display: flex;
+}
+
+/* efek blur/buram di navbar */
+.navbar-blur {
+  background-color: rgba(0, 0, 0, 0.4); /* transparan */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* untuk Safari */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030; /* pastikan di atas carousel */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+li a {
+  text-decoration: none; /* menghilangkan garisbawah */
+  color: white; /* ubah warna teks */
+}
+
+
+li a:hover { /* efek ketika diklik */
+  text-decoration: none; /* menghilangkan garibawah */
+  background-color: rgba(143, 118, 7, 0.4); /* warna teks */
+  transition: 0.9s; /* durasi transisi ketika diklik */
+  border-radius: 5px;
+}
+
+/* css untuk tombol LOGIN & REGISTER */
+.btn-log a {
+  text-decoration: none; /* menghilangkan garisbawah */
+  color: white; /* mengubah warna */
+}
+
+.btn-log a:hover { /* efek ketika di klik */
+  color: black; /* ubah warna teks */
+}
+
+.btn-log .btn {
+  border-radius: 5px; /* kelengkungan tombol */
+  margin-top: 5px; /* jarak dari atas */
+}
+
+
+.btn-log .btn:hover { /* efek ketika diklik */
+  background-color: yellow; /* warna bg */
+  transition: 0.5s; /* lama transisi */
+}
+
+/* selector styling untuk CAROUSEL/SLIDER */
+.carousel-item img {
+  height: 700px;
+}
+.carousel-caption {
+  margin-bottom: 10px; /* jarak dari bwah */
+}
+
+/* style buat garis HR/GARIS */
+.carousel-caption hr {
+  border-color: yellow; /* warna */
+  width: 500px; /* lebar garis */
+  border-width: 3px; /* ketebalan garis */
+}
+
+.carousel-caption .display-4 { /* 2 teks atas */
+  margin-top: 150px; /* jarak dari atas */
+  color: white; /* warna teks */
+}
+
+.carousel-caption p { /* 2 teks bawah */
+  font-size: 25px; /* ukuran teks */
+  color: white; /* warna teks */
+}
+
+/* CSS UNTUK ABOUT */
+.body-about {
+  background-image: url(/UAS/img/bg.png);
+}
+.row-about { /* bagian foto porfil */
+  /* background-image: url(/UAS/img/background.jpg); */
+  background-color: white;
+  border-radius: 15px; /* kelengkungan */
+  background-size: cover; /* ukuran foto */
+}
+
+.img-fluid { /* bagian keahlian */
+  margin-top: 10px; /* jarak gambar dari atas */
+}

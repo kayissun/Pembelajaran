@@ -1,0 +1,72 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, Helvetica, sans-serif; /* mengubah font seluruh teks */
+}
+
+marquee {
+  font-size: 15px; /* ukuran teks */
+}
+
+/* css untuk DASHBOARD */
+hr {
+  border-color: rgb(105, 105, 101);
+  width: 200px; /* lebar */
+  border-width: 2px; /* ketebalan */
+}
+
+.sidebar {
+  height: 100vh; /* ketingggian */
+  background-color: #343a40; /* background warna */
+  padding-top: 20px; /* jarak dari atas */
+}
+
+.sidebar a {
+  color: #fff; /* warna teks */
+  display: block; /* agar jadi 1 kolom */
+  padding: 10px; /* jarak antar teks  */
+  text-decoration: none; /* menghilangkan garisbawah */
+  padding-left: 20px; /* jarak dari kiri */
+}
+
+.sidebar a:hover {
+  background-color: #495057; /* ubah warna bakground */
+}
+
+/* css untuk INPUT */
+.btn-simpan {
+  width: 100%; /* lebar button */
+}
+
+/* css untuk DATA */
+.table-container {
+  justify-content: center; /* agar di tengah */
+  text-align: center; /* teks di tengah */
+  margin-top: 30px; /* jarak dari atas */
+  background-color: #fff; /* warna bg */
+  padding: 30px; /* jarak */
+  border-radius: 10px; /* kelengkunan */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* warna bayangan */
+}
+
+th {
+  width: 20px; /* lebar kolom */
+}
+
+.badge {
+  font-size: 15px; /* besar teks */
+}
+
+/* css tombol KELUAR */
+.text {
+  position: relative; /* agar bisa dipindah */
+  margin-right: 200vh; /* jarak dari kanan */
+}
+
+/* css untuk EDIT */
+.form-container {
+  background: white; /* warna bg */
+  border-radius: 10px; /* kelengkungan */
+  padding: 30px; /* jarak */
+  margin-top: 50px; /* jarak dari atas */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* efek bayangan */
+}

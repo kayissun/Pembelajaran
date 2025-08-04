@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Input Kegiatan - Admin</title>
+  <!-- Link ke file CSS -->
+    <link rel="stylesheet" href="/UAS/css/bootstrap.min.css" /><!-- memanggil css eketernal bawaan dari bootstrap -->
+    <link rel="stylesheet" href="/UAS/css/fontawesome/css/all.min.css" /><!-- memanggil css ikon eksternal bawaan dari bootstrap -->
+    <link rel="stylesheet" href="/UAS/css/dashboard.css" /><!-- memanggil file css eksternal -->
+</head>
+<body>
+
+  <div class="container">
+    <div class="form-container">
+      <!-- class ALERT-PRIMARY untuk mengubah teks agar menjadi biru dan besar -->
+      <h3 class="mb-4 text-center alert alert-primary text-center">FORM PENGAJUAN KEGIATAN MAHASISWA </h3>
+      <form action="data.html" method="#">
+        <!-- Input Nama Kegiatan -->
+        <div class="form-group">
+          <label for="nama_kegiatan">Nama Kegiatan</label>
+          <input type="text" class="form-control" placeholder="Contoh: Seminar Web Development" required>
+        </div>
+
+        <!-- Input Lokasi & Tanggal Kegiatan -->
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-6">
+              <label>Lokasi</label>
+              <input type="text" class="form-control" name="tempat" placeholder="Masukan Lokasi" />
+            </div>
+
+            <div class="col-md-6">
+              <label>Tanggal Kegiatan</label>
+              <input type="date" class="form-control" name="tanggal" placeholder="Tanggal Kegiatan" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Input Deskripsi -->
+        <div class="form-group">
+          <label for="deskripsi">Deskripsi</label>
+          <textarea class="form-control" id="deskripsi" rows="4" placeholder="Deskripsi kegiatan" required></textarea>
+        </div>
+
+        <!-- input file -->
+        <div class="form-group">
+          <label for="uploadFile">Upload File</label>
+          <input type="file" class="form-control-file" name="uploadFile" />
+        </div>
+
+        <!-- Tombol Simpan, TAMBAH onclick agar bisa dipanggil di file script.js -->
+        <button type="button" class="btn btn-simpan btn-primary" onclick="simpan()">Simpan</button> <!-- button simpan -->
+      </form>
+    </div>
+  </div>
+
+  <!-- menampilkan popup -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- menambah library pop up -->
+    <script src="/UAS/js/script.js"></script> <!-- menambah file script eksternal -->
+
+  <!-- Script Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

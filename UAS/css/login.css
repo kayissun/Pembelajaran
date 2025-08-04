@@ -1,0 +1,38 @@
+body {
+  background-image: url(/UAS/img/polsa2.jpg); /* mengubah gambar LB */
+  background-size: cover; /* gambar tetap */
+  font-family: sans-serif; /* font teks */
+}
+
+/* css buat LOGIN */
+.container {
+  background: transparent; /* warna bg */
+  background-color: rgba(0, 0, 0, 0.2); /* transparan */
+  backdrop-filter: blur(10px); /* Adjust blur amount as needed */
+  padding: 2rem; /* jarak */
+  margin-top: 9%; /* jarak dari atas */
+  border-radius: 10px; /* kelengkungan form */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* efek bayangan */
+  width: 100%; /* lebar */
+  max-width: 400px; /* maksimal lebar */
+}
+
+/* css REGISTER */
+.container-register {
+  background: transparent; /* warna bg */
+  background-color: rgba(0, 0, 0, 0.2); /* transparan */
+  backdrop-filter: blur(10px); /* Adjust blur amount as needed */
+  padding: 2rem; /* jarak */
+  margin-top: 3%; /* jarak dari atas */
+  margin-left: 35%; /* jarak dari kiri */
+  border-radius: 10px; /* kelengkungan */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 200%; /* lebar */
+  max-width: 450px; /* max-lebar */
+}
+
+.btn { 
+  width: 100%; /* lebar button */
+  padding: 5px; /* jarak button */
+  border-radius: 15px; /* kelengkungan button */
+}

@@ -16,6 +16,7 @@
     <li><a href="Pertemuan7/login.html">Pertemuan 7</a></li>
     <li><a href="Pertemuan8/index.html">Pertemuan 8</a></li>
     <li><a href="Pertemuan9/index.html">Pertemuan 9</a></li>
+    <li><a href="UAS/landing.html">UAS</a></li>
   </ul>
 </body>
 </html>
