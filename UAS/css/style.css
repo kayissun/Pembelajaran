@@ -1,8 +1,6 @@
 /* css buat BODY */
 body {
   font-family: Arial, Helvetica, sans-serif; /* font untuk semua teks */
-  /* background-image: url(/UAS/img/bg.png); */
-  background-size: cover;
 }
 
 /* css untuk NAVBAR */
@@ -85,7 +83,8 @@ li a:hover { /* efek ketika diklik */
 
 /* CSS UNTUK ABOUT */
 .body-about {
-  background-image: url(/UAS/img/bg.png);
+  background-color: rgb(8, 102, 102);
+;
 }
 .row-about { /* bagian foto porfil */
   /* background-image: url(/UAS/img/background.jpg); */
