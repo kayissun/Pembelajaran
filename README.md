@@ -9,9 +9,9 @@ Repo ini dibuat sebagai dokumentasi proses belajar HTML dasar, terdiri dari mate
 
 | Pertemuan | Topik                 | Link                                     |
 |-----------|-----------------------|------------------------------------------|
-| 1 part 1  | Pengenalan HTML | 1   | [Lihat](./Pertemuan1/index.html)         |
-| 1 part 2  | Pengenalan HTML | 2   | [Lihat](./Pertemuan1/index2.html)        |
-| 1 part 3  | Pengenalan HTML | 3   | [Lihat](./Pertemuan1/index3.html)        |
+| 1 part 1  | Pengenalan HTML       | [Lihat](./Pertemuan1/index.html)         |
+| 1 part 2  | Pengenalan HTML       | [Lihat](./Pertemuan1/index2.html)        |
+| 1 part 3  | Pengenalan HTML       | [Lihat](./Pertemuan1/index3.html)        |
 | 2         | Tag Lanjutan HTML     | [Lihat](./Pertemuan2/index.html)         |
 | 3         | Membuat Table & CSS   | [Lihat](./Pertemuan3/index.html)         |
 | 4         | Lanjutan table &      |                                          |
