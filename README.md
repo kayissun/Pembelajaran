@@ -41,81 +41,59 @@ Repo ini dibuat sebagai dokumentasi proses belajar HTML dasar, terdiri dari mate
 
 ## 📂 Struktur Folder
 Pembelajaran/
-├─ Pertemuan1/
-|   └─ img
-|   └─ index.html
-|   └─ index2.html
-|   └─ index3.html
-├─ Pertemuan2/
-|  └─ img
-|  └─ index.html
-├─ Pertemuan3/
-|  └─ index.html
-├─ Pertemuan4/
-|  └─ data inventaris.html
-|  └─ input.html
-|  └─ login.html
-├─ Pertemuan5/
-|  └─ index.html
-|  └─ style.css
-├─ UTS/
-|  └─ img
-|  └─ about.css
-|  └─ about.html
-|  └─ contact.css
-|  └─ contact.html
-|  └─ cv.css
-|  └─ cv.html
-|  └─ home.css
-|  └─ home.html
-|  └─ login.css
-|  └─ login.html
-├─ Pertemuan6/
-|  └─ index1.html
-|  └─ index2.html
-|  └─ script.js
-|  └─ style.css
-├─ Pertemuan7/
-|  └─ img
-|  └─ daftar.html
-|  └─ data.html
-|  └─ galeri.html
-|  └─ home.html
-|  └─ login.html
-|  └─ script.js
-|  └─ style.css
-├─ Pertemuan8/
-|  └─ img
-|  └─ bootstrap.js
-|  └─ bootstrap.min.css
-|  └─ index.html
-|  └─ style.css
-├─ Pertemuan9/
-|  └─ css
-|    └─ fontawesome
-|    └─ bootstrap.min.css
-|    └─ style.css
-|  └─ js
-|    └─ bootstrap.js
-|  └─ img
-|  └─ index.html
-|  └─ login.html
-├─ UAS/
-|  └─ img
-|  └─ css
-|  └─ js
-|  └─ about.html
-|  └─ dashboard.html
-|  └─ data.html
-|  └─ edit1.html
-|  └─ edit2.html
-|  └─ edit3.html
-|  └─ edit4.html 
-|  └─ edit5.html
-|  └─ input.html
-|  └─ landing.html
-|  └─ login.html
-|  └─ register.html
+├── Pertemuan1/
+│ ├── img/
+│ ├── index.html
+│ ├── index2.html
+│ └── index3.html
+├── Pertemuan2/
+│ ├── img/
+│ ├── index.html
+│ ├── input.html
+│ └── login.html
+├── Pertemuan3/
+│ └── index.html
+├── Pertemuan4/
+│ ├── data inventaris.html
+│ └── input.html
+├── Pertemuan5/
+│ ├── index.html
+│ └── style.css
+├── Pertemuan6/
+│ ├── index1.html
+│ ├── login.css
+│ └── home.css
+├── Pertemuan7/
+│ ├── daftar.html
+│ ├── data.html
+│ ├── galeri.html
+│ ├── home.html
+│ └── style.css
+├── Pertemuan8/
+│ ├── img/
+│ ├── bootstrap.js
+│ └── bootstrap.min.css
+├── Pertemuan9/
+│ ├── css/
+│ ├── fontawesome/
+│ ├── bootstrap.min.css
+│ ├── js/
+│ └── index.html
+├── UTS/
+│ ├── cv.css
+│ ├── cv.html
+│ └── script.js
+├── UAS/
+│ ├── img/
+│ ├── css/
+│ ├── js/
+│ ├── about.html
+│ ├── dashboard.html
+│ ├── edit1.html - edit5.html
+│ ├── index.html
+│ ├── landing.html
+│ └── login.html
+└── README.md
 
 
 
