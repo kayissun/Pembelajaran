@@ -22,7 +22,6 @@ Repo ini dibuat sebagai dokumentasi proses belajar HTML dasar, terdiri dari mate
 | 7         | Web sederhana         | [Lihat](./Pertemuan7/login.html)         |
 | 8         | Pengenalan Bootstrap  | [Lihat](./Pertemuan8/index.html)         |
 | 9         | Landing page sedrehana| [Lihat](./Pertemuan9/index.html)         |
-| ...       | ...                   | ...                                      |
 | UTS       | Ujian Tengah Semester | [Lihat](./UTS/Login.html)                |
 | UAS       | Ujian Akhir Semester  | [Lihat](./UAS/landing.html)              |
 
@@ -35,7 +34,6 @@ Repo ini dibuat sebagai dokumentasi proses belajar HTML dasar, terdiri dari mate
 - HTML5
 - CSS3 *(pada beberapa pertemuan)*
 - Bootstrap v4.6 *(pada beberapa pertemuan)*
-- Git & GitHub (untuk version control dan deployment)
 
 ---
 
