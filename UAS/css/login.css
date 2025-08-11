@@ -1,5 +1,5 @@
 body {
-  background-image: url(/UAS/img/polsa2.jpg); /* mengubah gambar LB */
+  background-image: url(img/polsa2.jpg); /* mengubah gambar LB */
   background-size: cover; /* gambar tetap */
   font-family: sans-serif; /* font teks */
 }
