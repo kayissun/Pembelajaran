@@ -21,7 +21,7 @@ Repo ini dibuat sebagai dokumentasi proses belajar HTML dasar, terdiri dari mate
 | 6 part 2  | Javascript eksternal  | [Lihat](./Pertemuan6/Index2.html)        |
 | 7         | Web sederhana         | [Lihat](./Pertemuan7/login.html)         |
 | 8         | Pengenalan Bootstrap  | [Lihat](./Pertemuan8/index.html)         |
-| 9         | Landing page sedrehana| [Lihat](./Pertemuan9/index.html)         |
+| 9         | Landing page sederhana| [Lihat](./Pertemuan9/index.html)         |
 | UTS       | Ujian Tengah Semester | [Lihat](./UTS/Login.html)                |
 | UAS       | Ujian Akhir Semester  | [Lihat](./UAS/landing.html)              |
 
