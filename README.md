@@ -17,8 +17,8 @@ Repo ini dibuat sebagai dokumentasi proses belajar HTML dasar, terdiri dari mate
 | 4         | Lanjutan table &      |                                          |
 |           | pengenalan form       | [Lihat](./Pertemuan4/login.html)         |
 | 5         | Card                  | [Lihat](./Pertemuan5/index.html)         |
-| 6 part 1  | javascript inline     | [Lihat](./Pertemuan6/index1.html)        |
-| 6 part 2  | Javascript eksternal  | [Lihat](./Pertemuan6/index2.html)        |
+| 6 part 1  | javascript inline     | [Lihat](./Pertemuan6/Index1.html)        |
+| 6 part 2  | Javascript eksternal  | [Lihat](./Pertemuan6/Index2.html)        |
 | 7         | Web sederhana         | [Lihat](./Pertemuan7/login.html)         |
 | 8         | Pengenalan Bootstrap  | [Lihat](./Pertemuan8/index.html)         |
 | 9         | Landing page sedrehana| [Lihat](./Pertemuan9/index.html)         |
